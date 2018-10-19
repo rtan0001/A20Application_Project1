@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 29,
+        "name": "User Create the New application form and edit their personal details",
+        "description": "",
+        "id": "applicant-create-and-edit-the-new-application;user-create-the-new-application-form-and-edit-their-personal-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12550044466,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered username and password",
+            "match": {
+              "location": "Applicant_MyDetails_Steps.iEnteredUsernameAndPassword()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12062304606,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "Applicant_MyDetails_Steps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5169820708,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to the home HOME page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HOME",
+                  "offset": 23
+                }
+              ],
+              "location": "CreateNew_Application_Update_Personal_Details_Steps.i_navigate_to_the_home_Home_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6057274172,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Create New Application button then Navigates to the initial Declaration Page",
+            "match": {
+              "location": "CreateNew_Application_Update_Personal_Details_Steps.iClickCreateNewApplicationButtonThenNavigatesToTheInitialDeclarationPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2055429985,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Next to go the Personal Details Page",
+            "match": {
+              "location": "CreateNew_Application_Update_Personal_Details_Steps.clickNextToGoThePersonalDetailsPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3088298827,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select Australia from where do you want to study dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Australia",
+                  "offset": 9
+                }
+              ],
+              "location": "Add_And_Update_Personal_Details_Steps.iSelectLocationFromWhereDoYouWantToStudyDropdown(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3077977727,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Next to go to the Course Preference Page",
+            "match": {
+              "location": "CreateNew_Application_Update_Personal_Details_Steps.clickNextToGoToTheCoursePreferencePage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@CoursePreference_Test"
+          }
+        ]
+      }
+    ],
+    "name": "Applicant Create and edit the New application",
+    "description": "User Create the New application form and edit their personal details",
+    "id": "applicant-create-and-edit-the-new-application",
+    "keyword": "Feature",
+    "uri": "File3_CreateNew_Application_Update_Personal_Details.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "User Add and Update Course Preference Details",
+        "description": "",
+        "id": "applicant-add-and-update-course-preference-details-with-the-selection;user-add-and-update-course-preference-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6235133490,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered Course Code or name then click search should give full list of courses",
+            "match": {
+              "location": "Add_Course_Preference_Details_Steps.iEnteredCourseCodeOrNameThenClickSearchShouldGiveFullListOfCourses()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7366887428,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select and Added courses from the given list",
+            "match": {
+              "location": "Add_Course_Preference_Details_Steps.iSelectAndAddedCoursesFromTheGivenList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4081343457,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Close Search function",
+            "match": {
+              "location": "Add_Course_Preference_Details_Steps.iCloseSearchFunction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5067237718,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I can be able to Delete the Course Preference then preference should be changed",
+            "match": {
+              "location": "Add_Course_Preference_Details_Steps.iCanBeAbleToDeleteTheCoursePreferenceThenPreferenceShouldBeChanged()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57611626,
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element \u003cbutton class\u003d\"slds-button slds-button_neutral\" name\u003d\"previousButton\" type\u003d\"button\" data-aura-rendered-by\u003d\"328:593;a\"\u003e...\u003c/button\u003e is not clickable at point (703, 681). Other element would receive the click: \u003cdiv class\u003d\"slds-modal__container\" data-aura-rendered-by\u003d\"1473:0\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d69.0.3497.100)\n  (Driver info: chromedriver\u003d2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform\u003dWindows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027MU00142059\u0027, ip: \u002749.127.78.10\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\rtan0001\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}\nSession ID: dd088c519d43b7d70a07c1ccb5111d88\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat Pages.Add_Course_Preference_Details_Page.Click_NextPage_CoursePreference(Add_Course_Preference_Details_Page.java:71)\r\n\tat Steps.Add_Course_Preference_Details_Steps.iClickNextPageItWillNavigateToTheEducationHistoryPage(Add_Course_Preference_Details_Steps.java:55)\r\n\tat ✽.When I click NextPage it will Navigate to the Education History page(File4_Add_Course_Preference_Details.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "I click NextPage it will Navigate to the Education History page",
+            "match": {
+              "location": "Add_Course_Preference_Details_Steps.iClickNextPageItWillNavigateToTheEducationHistoryPage()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Personal_Details_Test"
+          }
+        ]
+      }
+    ],
+    "name": "Applicant Add and Update Course Preference Details with the Selection",
+    "description": "User Create the New application adding Course Preference details",
+    "id": "applicant-add-and-update-course-preference-details-with-the-selection",
+    "keyword": "Feature",
+    "uri": "File4_Add_Course_Preference_Details.feature"
+  }
+]
